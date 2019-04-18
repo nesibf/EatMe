@@ -318,7 +318,7 @@ header.top h3:after {
   top: auto;
   bottom: 7px;
 }
-.day-offer {
+.daily-offer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,7 +331,7 @@ header.top h3:after {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-.day-offer > * {
+.daily-offer > * {
   -webkit-box-flex: 1;
       -ms-flex: 1 4 auto;
           flex: 1 4 auto;
@@ -345,7 +345,7 @@ header.top h3:after {
           box-shadow: 0 5px 5px rgba(0,0,0,0.1);
   overflow: scroll;
 }
-.day-offer > *:first-child {
+.daily-offer > *:first-child {
   -ms-flex-negative: 1;
       flex-shrink: 1;
   -ms-flex-preferred-size: 50%;
@@ -353,14 +353,14 @@ header.top h3:after {
   -webkit-transform: translateX(50%) rotateY(6deg) translateX(-50%);
           transform: translateX(50%) rotateY(6deg) translateX(-50%);
 }
-.day-offer > *:nth-child(2) {
+.daily-offer > *:nth-child(2) {
   -webkit-transform: translateX(-50%) rotateY(-14deg) translateX(50%);
           transform: translateX(-50%) rotateY(-14deg) translateX(50%);
   border-left: 0;
   border-right: 0;
   min-width: 300px;
 }
-.day-offer > *:last-child {
+.daily-offer > *:last-child {
   -ms-flex-negative: 1;
       flex-shrink: 1;
   -ms-flex-preferred-size: 50%;
@@ -368,7 +368,7 @@ header.top h3:after {
   -webkit-transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
           transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
 }
-input#fold:not(:checked) ~ #main .day-offer > * {
+input#fold:not(:checked) ~ #main .daily-offer > * {
   -webkit-transform: none;
           transform: none;
 }

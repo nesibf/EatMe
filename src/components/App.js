@@ -91,7 +91,7 @@ class App extends React.Component {
 
     render() {
         return(
-            <div className='day-offer'>
+            <div className='daily-offer'>
                 <div className='menu'>
                     <Header tagline='best meals ever'/>
                     <ul className='fishes'>
