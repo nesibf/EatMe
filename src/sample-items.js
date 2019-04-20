@@ -1,40 +1,49 @@
 // This is just some sample data so you don't have to think of your own!
-const fishes = {
-  fish5: {
-    name: "Cosmoplitan",
-    image: "/images/cosmopolitan.jpg",
+const items = {
+  item5: {
+    name: "Cevapi",
+    image: "/images/cevapi.jpg",
     desc:
-      "An international fashion magazine for women that was formerly titled The Cosmopolitan.",
-    price: 1724,
+      "Chevapi - meat fingers from mixed meat. Served with anion",
+    price: 800,
     status: "available"
   },
 
-  fish4: {
-    name: "Al Jamila",
-    image: "/images/aljamila.jpg",
+  item4: {
+    name: "Burek",
+    image: "/images/burek.jpg",
     desc:
-      "An Arabic monthly women's magazine, published in Dubai. It is one of the publications of the Saudi Research and Marketing Group.",
-    price: 3200,
+      "Meat rolled in thin flour made leaves called 'jufka'",
+    price: 1000,
     status: "available"
   },
 
-  fish3: {
-    name: "Grazia",
-    image: "/images/grazia.jpg",
+  item3: {
+    name: "Pljeskavica",
+    image: "/images/pljeskavica.jpg",
     desc:
-      "A weekly women's magazine that originated in Italy with international editions printed in Albania, Australia, Bahrain, Bulgaria, China, Croatia, France, and the United Kingdom.",
-    price: 1684,
+      "Burger served alone with salat",
+    price: 700,
     status: "unavailable"
   },
 
-  fish2: {
-    name: "Sayidaty",
-    image: "/images/sayidaty.jpg",
+  item2: {
+    name: "Soup",
+    image: "/images/soup.jpg",
     desc:
-      "A weekly Arabic and a monthly English women's magazine published in both Dubai and Beirut and distributed throughout the Middle East, North Africa, Europe and America.",
-    price: 1129,
+      "List of soups called: teleca, pileca, merdjemek, vegetarian.",
+    price: 300,
+    status: "available"
+  },
+
+  item1: {
+    name: "Fruit",
+    image: "/images/voce.jpg",
+    desc:
+      "Full basket of all kind of season fruit",
+    price: 1300,
     status: "available"
   },
 };
 
-export default fishes;
+export default items;

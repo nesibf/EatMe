@@ -11,12 +11,6 @@ const Login = (props) => (
         >
             Log In With Github
         </button>
-        <button
-            className="google"
-            onClick={() => props.authenticate("Gooogle")}
-        >
-            Log In With Google
-        </button>
     </nav>
 );
 

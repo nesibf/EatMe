@@ -21,21 +21,29 @@ export function slugify(text) {
 }
 
 export function getFunName() {
-  const adjectives = [
-    "adorable",
-    "beautiful",
-    "clean",
-    "drab",
-    "elegant",
+  const primarily = [
+    "pileca",
+    "begova",
+    "merdjemek",
+    "vega",
+    "teleca"
   ];
 
-  const nouns = [
-    "analyses",
-    "diagnoses",
-    "oases",
-    "theses",
-    "crises",
+  const meal = [
+    "burek",
+    "sirnica",
+    "cevapi",
+    "zeljanica",
+    "pljeskavica"
   ];
 
-  return `${rando(adjectives)}-${rando(adjectives)}-${rando(nouns)}`;
+  const sweet = [
+    "tulumba",
+    "kompot",
+    "sampita",
+    "voce",
+    "cokolada"
+  ];
+
+  return `${rando(primarily)}-${rando(meal)}-${rando(sweet)}`;
 }

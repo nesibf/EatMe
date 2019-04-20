@@ -9,9 +9,9 @@ class Header extends React.Component {
                     <span className='ofThe'>List</span>
                     <span className='ofThe'>
                         <span className='of'>of</span>
-                        <span className='the'>women's</span>
+                        <span className='the'>daily</span>
                     </span>
-                    <span className='ofThe'>magazines</span>
+                    <span className='ofThe'>offer</span>
                 </h1>
                 <h3 className='tagline'>
                     <span>{this.props.tagline}</span>
