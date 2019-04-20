@@ -1,7 +1,7 @@
 export function formatPrice(cents) {
   return (cents / 100).toLocaleString("en-US", {
     style: "currency",
-    currency: "KM"
+    currency: "BAM"
   });
 }
 
@@ -27,19 +27,9 @@ export function getFunName() {
     "clean",
     "drab",
     "elegant",
-    "fancy",
-    "glamorous",
-    "handsome",
-    "long",
-    "magnificent",
   ];
 
   const nouns = [
-    "cacti",
-    "foci",
-    "fungi",
-    "nuclei",
-    "syllabuses",
     "analyses",
     "diagnoses",
     "oases",

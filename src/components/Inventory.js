@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 import firebase from "firebase";
-import AddFishForm from './AddItemForm'
+import AddItemForm from './AddItemForm'
 import EditFishForm from './EditItemForm'
 import Login from './Login'
 import base, {firebaseApp} from "../base";
@@ -86,7 +86,7 @@ class Inventory extends React.Component {
                         deleteFish={this.props.deleteItem}
                     />
                 ))}
-                <AddFishForm addFish={this.props.addItem} />
+                <AddItemForm addFish={this.props.addItem} />
                 <button onClick={this.props.loadSampleItems}> Load Magazines</button>
             </div>
         );
