@@ -38,7 +38,7 @@ class AddItemForm extends React.Component {
         </select>
         <textarea name="desc" ref={this.descRef} placeholder="Desc" />
         <input name="image" ref={this.imageRef} type="text" placeholder="Image" />
-        <button type="submit">+ Add Magazine</button>
+        <button type="submit">+ Add Meal</button>
     </form>
         );
     };

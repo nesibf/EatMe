@@ -87,7 +87,7 @@ class Inventory extends React.Component {
                     />
                 ))}
                 <AddItemForm addItem={this.props.addItem} />
-                <button onClick={this.props.loadSampleItems}> Load Magazines</button>
+                <button onClick={this.props.loadSampleItems}> Load Meals</button>
             </div>
         );
     };

@@ -61,7 +61,7 @@ class EditItemForm extends React.Component {
                 value={this.props.item.image}
             />
             <button onClick={() => this.props.deleteItem(this.props.index)}>
-                Remove Magazine
+                Remove Meal
             </button>
         </div>
     )}
