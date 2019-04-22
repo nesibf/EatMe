@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from "prop-types";
 import firebase from "firebase";
 import AddItemForm from './AddItemForm'
-import EditFishForm from './EditItemForm'
+import EditItemForm from './EditItemForm'
 import Login from './Login'
 import base, {firebaseApp} from "../base";
 
@@ -14,10 +14,10 @@ class Inventory extends React.Component {
     };
 
     static propTypes = {
-        fishes: PropTypes.object,
-        updateFish: PropTypes.func,
-        deleteFish: PropTypes.func,
-        loadSampleFishes: PropTypes.func
+        items: PropTypes.object,
+        updateItem: PropTypes.func,
+        deleteItem: PropTypes.func,
+        loadSampleItems: PropTypes.func
     };
 
 
@@ -78,15 +78,15 @@ class Inventory extends React.Component {
                 <h2>Inventory</h2>
                 {logout}
                 {Object.keys(this.props.items).map(key => (
-                    <EditFishForm
+                    <EditItemForm
                         key={key}
                         index={key}
-                        fish={this.props.items[key]}
-                        updateFish={this.props.updateItem}
-                        deleteFish={this.props.deleteItem}
+                        item={this.props.items[key]}
+                        updateItem={this.props.updateItem}
+                        deleteItem={this.props.deleteItem}
                     />
                 ))}
-                <AddItemForm addFish={this.props.addItem} />
+                <AddItemForm addItem={this.props.addItem} />
                 <button onClick={this.props.loadSampleItems}> Load Magazines</button>
             </div>
         );

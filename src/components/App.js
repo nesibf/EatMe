@@ -94,7 +94,7 @@ class App extends React.Component {
             <div className='daily-offer'>
                 <div className='menu'>
                     <Header tagline='best meals ever'/>
-                    <ul className='fishes'>
+                    <ul className='items'>
                         {Object.keys(this.state.items).map(key => (
                             <Item
                                 key={key}

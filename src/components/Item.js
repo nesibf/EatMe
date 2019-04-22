@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from "prop-types";
 import { formatPrice } from "../helpers"
 
-class Fish extends React.Component {
+class Item extends React.Component {
     static propTypes = {
         details: PropTypes.shape({
             image: PropTypes.string,
@@ -36,4 +36,4 @@ class Fish extends React.Component {
     }
 }
 
-export default Fish
+export default Item

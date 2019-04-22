@@ -1,6 +1,6 @@
 // This is just some sample data so you don't have to think of your own!
 const items = {
-  item5: {
+  item1: {
     name: "Cevapi",
     image: "/images/cevapi.jpg",
     desc:
@@ -9,7 +9,7 @@ const items = {
     status: "available"
   },
 
-  item4: {
+  item2: {
     name: "Burek",
     image: "/images/burek.jpg",
     desc:
@@ -27,7 +27,7 @@ const items = {
     status: "unavailable"
   },
 
-  item2: {
+  item4: {
     name: "Soup",
     image: "/images/soup.jpg",
     desc:
@@ -36,7 +36,7 @@ const items = {
     status: "available"
   },
 
-  item1: {
+  item5: {
     name: "Fruit",
     image: "/images/voce.jpg",
     desc:
