@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "name": "cotd5",
+  "version": 1,
+  "name": "EatMe",
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "routes": [
     { "src": "^/static/(.*)", "dest": "/static/$1" },
